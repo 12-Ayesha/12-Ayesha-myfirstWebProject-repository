@@ -8,7 +8,7 @@ import basketIcon from '../../assets/basket-icon.jpg';
 const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Menu", path: "/menu" },
+    { name: "Menu", path: "/order-menu" },
     { name: "Mobile App", path: "/app" },
     { name: "Contact Us", path: "/contact" }
   ];
