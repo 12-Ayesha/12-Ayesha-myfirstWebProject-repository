@@ -1,12 +1,14 @@
-import React from 'react'
-import './Home.css'
-import Header from '../../components/Header/Header'
-import ExploreMenu, { Menu } from '../../components/ExploreMenu/ExploreMenu'
-export const Home = () => {
+import React from "react";
+import Header from "../../components/Header/Header";
+import ExploreMenu from "../../components/ExploreMenu/ExploreMenu";
+import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
+
+export const Home = ({ category, setCategory }) => {
   return (
     <div>
       <Header />
-      <ExploreMenu/>
+      <ExploreMenu category={category} setCategory={setCategory} />
+      <FoodDisplay category={category} />
     </div>
-  )
-}
+  );
+};

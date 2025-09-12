@@ -90,7 +90,7 @@
   padding: 0.8rem 1rem;
   font-size: 1rem;
   font-weight: 600;
-  background-color: #101880;
+  background-color: #151d88;
   color: white;
   border: none;
   border-bottom-left-radius: 12px;
@@ -100,7 +100,7 @@
 }
 
 .food-name-button:hover {
-  background-color: #430a88;
+  background-color: #db2ca6;
 }
 
 /* Responsive tweaks */
